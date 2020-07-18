@@ -1,44 +1,44 @@
 {
-	"name": "bootcamp",
-	"version": "1.0.0",
-	"description": "API service",
-	"main": "server.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "NODE_ENV=production node src/server",
-		"dev": "nodemon src/server"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Sharvin26/BootCamp-API.git"
-	},
-	"author": "Sharvin Shah",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Sharvin26/BootCamp-API/issues"
-	},
-	"homepage": "https://github.com/Sharvin26/BootCamp-API#readme",
-	"devDependencies": {
-		"eslint": "^7.4.0",
-		"eslint-config-airbnb": "^18.2.0",
-		"eslint-config-node": "^4.1.0",
-		"eslint-config-prettier": "^6.11.0",
-		"eslint-config-standard": "^14.1.1",
-		"eslint-plugin-import": "^2.22.0",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.0.1",
-		"nodemon": "^2.0.4",
-		"prettier": "^2.0.5"
-	},
-	"dependencies": {
-		"colors": "^1.4.0",
-		"dotenv": "^8.2.0",
-		"express": "^4.17.1",
-		"mongoose": "^5.9.25",
-		"morgan": "^1.10.0",
-		"node-geocoder": "^3.27.0",
-		"slugify": "^1.4.4"
-	}
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "API service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharvin26/BootCamp-API.git"
+  },
+  "author": "Sharvin Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sharvin26/BootCamp-API/issues"
+  },
+  "homepage": "https://github.com/Sharvin26/BootCamp-API#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0",
+    "slugify": "^1.4.4"
+  }
 }
