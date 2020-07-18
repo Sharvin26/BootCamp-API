@@ -1,0 +1,28 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "API service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node src/server",
+    "dev": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharvin26/BootCamp-API.git"
+  },
+  "author": "Sharvin Shah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sharvin26/BootCamp-API/issues"
+  },
+  "homepage": "https://github.com/Sharvin26/BootCamp-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
